@@ -1,6 +1,6 @@
 def horaire_supp (hours :float  , salary :float , name :str) -> float:
     if hours > 40:
-        overtime = int(hours) - 40
+        overtime = hours - 40
         overtimesalary = overtime * (salary * 1.5)
         totalsalary = (40 * salary) + overtimesalary
         return totalsalary
