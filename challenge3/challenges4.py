@@ -1,5 +1,5 @@
 def rechercheElement(ch: str, mot: str) :
-    for i in range(len(ch)):
+    for i in range(len(ch)-1):
         if ch[i] == mot:
             return i
     return False 
